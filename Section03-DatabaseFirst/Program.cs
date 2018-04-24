@@ -10,6 +10,13 @@ namespace Section03_DatabaseFirst
     {
         static void Main(string[] args)
         {
+            var context = new VidzyDbContext();
+
+            context.AddVideo("Saw", new DateTime(2010, 5, 12), "Thriller");
+            context.AddVideo("Las-Vegas", new DateTime(2015, 1, 27), "Comedy");
+            context.AddVideo("Adrenalin", new DateTime(2000, 3, 7), "Action");
+
+            Console.ReadLine();
         }
     }
 }
