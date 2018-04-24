@@ -18,7 +18,7 @@ namespace Section03_DatabaseFirst
 
             //context.AddVideo("Fast and furious", new DateTime(2001, 9, 19), "Action");
 
-            context.AddVideo("Terminator", new DateTime(1999, 8, 8), "Action", Classification.Platinum);
+            context.AddVideo("Terminator", new DateTime(1999, 8, 8), "Action", (byte)Classification.Platinum);
 
             Console.ReadLine();
         }

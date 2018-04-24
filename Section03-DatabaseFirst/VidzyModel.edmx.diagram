@@ -7,7 +7,7 @@
       <Diagram DiagramId="637bdcdff3604bd4933d2c3c890ab1fc" Name="Diagram1">
         <EntityTypeShape EntityType="VidzyModel.Genre" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
         <EntityTypeShape EntityType="VidzyModel.Video" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
-        <AssociationConnector Association="VidzyModel.GenreVideo" />
+        <AssociationConnector Association="VidzyModel.FK_Videos_Genres" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
