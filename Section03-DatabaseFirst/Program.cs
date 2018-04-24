@@ -16,7 +16,9 @@ namespace Section03_DatabaseFirst
             //context.AddVideo("Las-Vegas", new DateTime(2015, 1, 27), "Comedy");
             //context.AddVideo("Adrenalin", new DateTime(2000, 3, 7), "Action");
 
-            context.AddVideo("Fast and furious", new DateTime(2001, 9, 19), "Action");
+            //context.AddVideo("Fast and furious", new DateTime(2001, 9, 19), "Action");
+
+            context.AddVideo("Terminator", new DateTime(1999, 8, 8), "Action", Classification.Platinum);
 
             Console.ReadLine();
         }
