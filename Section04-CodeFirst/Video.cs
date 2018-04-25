@@ -11,7 +11,6 @@ namespace Section04_CodeFirst
         public int Id { get; set; }
         public string Name { get; set; }
         public DateTime RealeseDate { get; set; }
-
-        public IList<Genre> Genres { get; set; }
+        public Genre Genre { get; set; }
     }
 }
