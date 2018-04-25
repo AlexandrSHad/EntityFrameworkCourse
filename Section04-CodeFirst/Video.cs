@@ -12,5 +12,6 @@ namespace Section04_CodeFirst
         public string Name { get; set; }
         public DateTime RealeseDate { get; set; }
         public Genre Genre { get; set; }
+        public Classification Classification { get; set; }
     }
 }
