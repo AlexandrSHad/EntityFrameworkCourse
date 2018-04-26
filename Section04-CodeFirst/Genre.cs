@@ -10,5 +10,7 @@ namespace Section04_CodeFirst
     {
         public byte Id { get; set; }
         public string Name { get; set; }
+
+        public IList<Video> Videos { get; set; } = new List<Video>();
     }
 }

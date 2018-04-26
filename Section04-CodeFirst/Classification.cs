@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Section04_CodeFirst
 {
-    public enum Classification
+    public enum Classification : byte
     {
         Silver = 1,
         Gold,

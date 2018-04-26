@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Section04_CodeFirst.EntityConfigurations;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -11,5 +12,11 @@ namespace Section04_CodeFirst
     {
         public DbSet<Genre> Genres { get; set; }
         public DbSet<Video> Videos { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Configurations.Add(new GenreConfiguration());
+            modelBuilder.Configurations.Add(new VideoConfiguration());
+        }
     }
 }
