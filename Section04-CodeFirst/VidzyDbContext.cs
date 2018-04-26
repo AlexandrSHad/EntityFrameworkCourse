@@ -16,6 +16,7 @@ namespace Section04_CodeFirst
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Configurations.Add(new GenreConfiguration());
+            modelBuilder.Configurations.Add(new TagConfiguration());
             modelBuilder.Configurations.Add(new VideoConfiguration());
         }
     }

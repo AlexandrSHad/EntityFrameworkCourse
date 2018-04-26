@@ -14,5 +14,6 @@ namespace Section04_CodeFirst
         public byte GenreId { get; set; }
         public Genre Genre { get; set; }
         public Classification Classification { get; set; }
+        public IList<Tag> Tags { get; set; } = new List<Tag>();
     }
 }
