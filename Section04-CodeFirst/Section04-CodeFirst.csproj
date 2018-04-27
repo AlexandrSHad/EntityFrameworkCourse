@@ -78,6 +78,10 @@
     <Compile Include="Migrations\201804261945270_AddTagToVideoTable.Designer.cs">
       <DependentUpon>201804261945270_AddTagToVideoTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201804271937151_RenameRealeseDateToReleaseDate.cs" />
+    <Compile Include="Migrations\201804271937151_RenameRealeseDateToReleaseDate.Designer.cs">
+      <DependentUpon>201804271937151_RenameRealeseDateToReleaseDate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -107,6 +111,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201804261945270_AddTagToVideoTable.resx">
       <DependentUpon>201804261945270_AddTagToVideoTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804271937151_RenameRealeseDateToReleaseDate.resx">
+      <DependentUpon>201804271937151_RenameRealeseDateToReleaseDate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

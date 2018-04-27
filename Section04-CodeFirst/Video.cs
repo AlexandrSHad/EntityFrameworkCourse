@@ -10,7 +10,7 @@ namespace Section04_CodeFirst
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public DateTime RealeseDate { get; set; }
+        public DateTime ReleaseDate { get; set; }
         public byte GenreId { get; set; }
         public Genre Genre { get; set; }
         public Classification Classification { get; set; }
